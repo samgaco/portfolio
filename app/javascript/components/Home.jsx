@@ -25,6 +25,7 @@ class Home extends React.Component {
            <Navigation />
            <div className="image-one d-flex flex-row flex-wrap justify-content-center">
          <img src={mainIMG} />
+
          </div>
          <div className="name-one d-flex flex-row flex-wrap justify-content-center">
          <h1 className="main-name">Samuel</h1>

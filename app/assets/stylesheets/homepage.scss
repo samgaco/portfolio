@@ -2,16 +2,10 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-.nav-buttons{
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    border-bottom: 1px solid rgb(151, 150, 150);
-    width: 90%;
-    padding-bottom: 3rem;
-}
+
 
 // name h1
-@media (min-width: 700px) { 
+@media (min-width: 800px) { 
 
 .main-name{
     font-family: 'Permanent Marker', cursive;
@@ -21,7 +15,40 @@
     position: relative;
     bottom: 52px;
     clip-path: polygon(0% 0%, 100% 50px, 100% 100%, 0% calc(100% - 50px));
-} }
+} 
+
+.image-one{
+    opacity: 0.9;
+
+}
+
+.nav-buttons{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid rgb(151, 150, 150);
+    width: 90%;
+    padding-bottom: 3rem;
+}
+
+
+
+.navbuttons{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+ }
+ 
+ .navbuttons h2{
+    font-size: 1.5rem;
+    color: rgb(151, 150, 150);
+}
+
+.navbuttons h2:hover{
+        text-decoration: underline;
+        color: #b85865;
+    }
+
+
+}
+
 
 // name div
 .name-one{
@@ -32,8 +59,42 @@
     margin-bottom: 1rem;
 }
 
-.image-one{
-    opacity: 0.9;
+
+
+
+@media (max-width: 800px) { 
+
+    .main-name{
+        display: hidden;
+        opacity: 0;
+ } 
+
+ .image-one{
+    opacity: 0;
 
 }
 
+.nav-buttons{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid rgb(151, 150, 150);
+    width: 90%;
+    padding-bottom: 3rem;
+}
+
+
+.navbuttons{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+ }
+ 
+ .navbuttons h2{
+    font-size: 0.9rem;
+    color: rgb(151, 150, 150);
+}
+
+.navbuttons h2:hover{
+        text-decoration: underline;
+        color: #b85865;
+    }
+
+}

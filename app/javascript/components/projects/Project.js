@@ -10,7 +10,7 @@ class Project extends React.Component {
         <a href={this.props.url} target="_blank">
         <img src={this.props.img} />
         </a>
-        <p class="">
+        <p className="">
         {this.props.description}</p>
         </div>
       </div>
