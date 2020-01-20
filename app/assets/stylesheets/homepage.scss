@@ -1,0 +1,39 @@
+// Place all the styles related to the homepage controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.nav-buttons{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid rgb(151, 150, 150);
+    width: 90%;
+    padding-bottom: 3rem;
+}
+
+// name h1
+@media (min-width: 700px) { 
+
+.main-name{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 9rem;
+    background: white;
+    margin-left: 5rem;
+    position: relative;
+    bottom: 52px;
+    clip-path: polygon(0% 0%, 100% 50px, 100% 100%, 0% calc(100% - 50px));
+} }
+
+// name div
+.name-one{
+    max-width: 100%;
+}
+
+.main-name-wrapper{
+    margin-bottom: 1rem;
+}
+
+.image-one{
+    opacity: 0.9;
+
+}
+

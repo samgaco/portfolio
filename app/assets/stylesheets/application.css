@@ -1,0 +1,63 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ /* Main container */
+
+ @import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap');
+
+ .main-bg{
+     
+     background: linear-gradient(to bottom, rgb(196, 194, 194), rgb(75, 75, 75));
+ }
+ .main-page{
+     margin-top: 3rem;
+     width: 90%;
+     min-height: 90rem;
+     background: linear-gradient(to bottom, #e8ece6 43%, #b85865 0%) ;
+     border-radius: 2%;
+     -webkit-box-shadow: 12px -9px 49px -17px rgba(0,0,0,0.54);
+     -moz-box-shadow: 12px -9px 49px -17px rgba(0,0,0,0.54);
+     box-shadow: 12px -9px 49px -17px rgba(0,0,0,0.54);
+ }
+
+ /* Nav section */
+
+ .navbuttons{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+ }
+ 
+ .navbuttons h2{
+    font-size: 1.5rem;
+    color: rgb(151, 150, 150);
+}
+
+.navbuttons h2:hover{
+        text-decoration: underline;
+        color: #b85865;
+    }
+
+ /* Home - Contact section */
+
+ .contact-icons img{
+        width: 3.2rem; 
+        margin-left: 2rem;
+        margin-top: 2rem;
+        position: relative;
+        bottom: 50px;
+    }
+
+
+/* Image section */
