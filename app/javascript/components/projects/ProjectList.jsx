@@ -1,6 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Project from "./Project"
+import Navigation from "../Navigation/index"
 
 class ProjectList extends React.Component {
   constructor(props) {
@@ -20,7 +21,7 @@ class ProjectList extends React.Component {
         throw new Error('Network response was not ok.');
       })
       .then((response) => this.setState({ projects: response }))
-    }
+  }
 
   mapProjects(projects) {
     return projects.map((project) => (
@@ -33,13 +34,23 @@ class ProjectList extends React.Component {
       />
     ));
   }
-  render () {
+  render() {
 
     const AllProjects = this.mapProjects(this.state.projects)
     return (
-      
-      <div className="row projectTable">
-        {AllProjects}
+      <div>
+        <div class="main-title-container d-flex flex-row flex-wrap justify-content-center">
+          <h1 className="main-name">Samuel García Companys</h1>
+        </div>
+        <div className="name-one d-flex flex-row flex-wrap justify-content-center">
+          <div>
+            <Navigation />
+          </div>
+        </div>
+
+        <div className="projectTable">
+          {AllProjects}
+        </div>
       </div>
     );
   }

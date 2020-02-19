@@ -2,99 +2,73 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-
-
-// name h1
-@media (min-width: 800px) { 
-
-.main-name{
-    font-family: 'Permanent Marker', cursive;
-    font-size: 9rem;
-    background: white;
-    margin-left: 5rem;
-    position: relative;
-    bottom: 52px;
-    clip-path: polygon(0% 0%, 100% 50px, 100% 100%, 0% calc(100% - 50px));
-} 
-
-.image-one{
-    opacity: 0.9;
-
+// My name
+.main-title-container{
+    margin: 2.5rem 6rem 3rem 6rem;
+    border-bottom: crimson 1.5px solid;
 }
 
-.nav-buttons{
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    border-bottom: 1px solid rgb(151, 150, 150);
-    width: 90%;
-    padding-bottom: 3rem;
+.main-name {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 4rem;
+  position: relative;
 }
-
-
-
-.navbuttons{
-    font-family: 'M PLUS Rounded 1c', sans-serif;
- }
- 
- .navbuttons h2{
-    font-size: 1.5rem;
-    color: rgb(151, 150, 150);
-}
-
-.navbuttons h2:hover{
-        text-decoration: underline;
-        color: #b85865;
-    }
-
-
-}
-
 
 // name div
-.name-one{
-    max-width: 100%;
+.name-one {
+  max-width: 100%;
 }
 
-.main-name-wrapper{
-    margin-bottom: 1rem;
+.main-name-wrapper {
+  margin-bottom: 1rem;
 }
 
+@media (min-width: 800px) {
+  .image-one {
+    opacity: 0.9;
+  }
 
-
-
-@media (max-width: 800px) { 
-
-    .main-name{
-        display: hidden;
-        opacity: 0;
- } 
-
- .image-one{
-    opacity: 0;
-
-}
-
-.nav-buttons{
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    border-bottom: 1px solid rgb(151, 150, 150);
+  .nav-buttons {
     width: 90%;
     padding-bottom: 3rem;
+  }
+
+  .navbuttons {
+    font-family: "Julius Sans One", sans-serif;
+  }
+
+  .navbuttons h2 {
+    font-size: 1.5rem;
+    color: rgb(151, 150, 150);
+  }
+
+  .navbuttons h2:hover {
+    text-decoration: underline;
+    color:crimson;
+  }
 }
 
+@media (max-width: 800px) {
+  .image-one {
+    opacity: 0;
+  }
 
-.navbuttons{
-    font-family: 'M PLUS Rounded 1c', sans-serif;
- }
- 
- .navbuttons h2{
+  .nav-buttons {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .navbuttons {
+    font-family: "Julius Sans One", sans-serif;
+  }
+
+  .navbuttons h2 {
     font-size: 0.9rem;
     color: rgb(151, 150, 150);
-}
+  }
 
-.navbuttons h2:hover{
-        text-decoration: underline;
-        color: #b85865;
-    }
-
+  .navbuttons h2:hover {
+    text-decoration: underline;
+    color:crimson;
+  }
 }

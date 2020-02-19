@@ -1,30 +1,37 @@
 // Place all the styles related to the projects controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
-@import url('https://fonts.googleapis.com/css?family=Amiri&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Amiri&display=swap");
 
 // ProjectList
 
-.projectTable{
-    width: 70%;
-    margin-top: 10rem;
+.projectTable {
+  width: 70%;
+  margin: 1rem 1rem auto 12rem;
 }
-
 
 // Cards
 
-.projectAlone{
-    font-family: 'Amiri', serif;
+.projectAlone {
+  font-family: "Amiri", serif;
+  border-left: 1px solid crimson;
+  border-right: 1px solid crimson;
 }
 
-.projectAlone img{
-    max-width: 100%;
-    margin: 2%;
+.projectAlone img {
+  max-width: 100%;
+  margin: 2%;
 }
 
-.projectAlone-within{
-    margin: 2%;
-
+.projectAlone-within {
+  margin: 2%;
 }
 
+.img-project{
+    border-radius: 8%;
+    width: 80%;
+}
+
+.title-project{
+    font-family: "Julius Sans One", sans-serif;
+}

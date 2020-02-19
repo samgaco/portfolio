@@ -14,35 +14,76 @@
  *= require_self
  */
 
- /* Main container */
+/* Fonts */
+@import url("https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap");
 
- @import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap');
+/* General selection */
 
- .main-bg{
-     
-     background: linear-gradient(to bottom, rgb(196, 194, 194), rgb(75, 75, 75));
- }
- .main-page{
-     margin-top: 3rem;
-     width: 90%;
-     min-height: 110rem;
-     background: linear-gradient(to bottom, #e8ece6 35%, #b85865 0%) ;
-     border-radius: 2%;
-     -webkit-box-shadow: 12px -9px 49px -17px rgba(0,0,0,0.54);
-     -moz-box-shadow: 12px -9px 49px -17px rgba(0,0,0,0.54);
-     box-shadow: 12px -9px 49px -17px rgba(0,0,0,0.54);
- }
+::-moz-selection {
+  /* Code for Firefox */
+  color: whitesmoke;
+  background: crimson;
+}
 
- /* Nav section */
- /* Home - Contact section */
+::selection {
+  color: whitesmoke;
+  background: crimson;
+}
 
- .contact-icons img{
-        width: 3.2rem; 
-        margin-left: 2rem;
-        margin-top: 2rem;
-        position: relative;
-        bottom: 50px;
-    }
+/* Main container */
 
+.main-bg {
+  background: linear-gradient(to bottom, rgb(196, 194, 194), rgb(75, 75, 75));
+}
+.main-page {
+  width: 100%;
+  min-height: 110rem;
+  background: linear-gradient(to bottom, #e8ece6 35%, crimson 0%);
+}
+
+/* Nav section */
+/* Home - Contact section */
+
+.contact-icons img {
+  width: 2.2rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  position: relative;
+}
+
+.githubIMG:hover{
+  color: crimson;
+}
+
+.twitterIMG:hover{
+  color: dodgerblue;
+}
+
+.linkedinIMG:hover{
+  color: #0077b5;
+}
 
 /* Image section */
+
+
+/* Scroll bar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(219, 122, 142); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: crimson; 
+}

@@ -19,7 +19,7 @@ class Navigation extends React.Component {
   }
 
   render() {
-    const categories = ["Home", "Projects","MyTechBlog", "日本語", "汉语"];
+    const categories = ["Home", "Projects"];
     const allCategories = this.allCategories(categories);
     return(
 
