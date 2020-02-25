@@ -20,3 +20,9 @@ Project.create(
         img:  "https://user-images.githubusercontent.com/34820784/63966657-04750e80-ca9c-11e9-9f20-a8f3e4bbf658.gif",
         url: "https://github.com/Forison/private-events"
     )
+Project.create(
+        name: "Social Network",
+        description: "The technical goals of the project were to be able to emulate some of the functionalities that facebook has implemented, such as allowing the users to have friends in a symmetrical irreflexive way, accept & send friend requests, submit posts and see the posts of their friends and comment on the posts of their friends.",
+        img:  "https://github.com/samgaco/socialnetwork/blob/master/app/assets/images/main.png",
+        url: "https://github.com/samgaco/socialnetwork"
+    )
