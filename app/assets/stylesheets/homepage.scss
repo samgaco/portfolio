@@ -3,9 +3,9 @@
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
 // My name
-.main-title-container{
-    margin: 2.5rem 6rem 3rem 6rem;
-    border-bottom: crimson 1.5px solid;
+.main-title-container {
+  margin: 2.5rem 6rem 3rem 6rem;
+  border-bottom: crimson 1.5px solid;
 }
 
 .main-name {
@@ -25,32 +25,32 @@
 
 // About
 
-.about-body{
+.about-body {
   max-width: 30%;
   margin-left: 5%;
 }
 
-.about-text{
+.about-text {
   position: relative;
   top: 12px;
 }
 
-.highlight{
-  background: linear-gradient( crimson 95%, whitesmoke);
+.highlight {
+  background: linear-gradient(crimson 95%, whitesmoke);
   color: whitesmoke;
 }
 
-.about-cv{
+.about-cv {
   color: #dc143c;
   font-weight: bold;
 }
 
-.about-cv:hover{
+.about-cv:hover {
   text-decoration: none;
   color: #ad1332;
 }
 
-.about-body img{
+.about-body img {
   max-width: 30%;
   border-radius: 50%;
   float: left;
@@ -58,12 +58,13 @@
 }
 
 // Contact Icons
-.contact-icons{
+.contact-icons {
   margin-left: 2%;
 }
-.contact-icons div{
-    padding-top: 6%; 
-    padding-right: 4%;
+
+.contactIcon-div{
+  padding-top: 6%;
+  padding-right: 4%;
 }
 
 @media (min-width: 800px) {
@@ -87,7 +88,7 @@
 
   .navbuttons h2:hover {
     text-decoration: underline;
-    color:crimson;
+    color: crimson;
   }
 }
 
@@ -112,9 +113,6 @@
 
   .navbuttons h2:hover {
     text-decoration: underline;
-    color:crimson;
+    color: crimson;
   }
 }
-
-
-
