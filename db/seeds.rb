@@ -23,6 +23,6 @@ Project.create(
 Project.create(
         name: "Social Network",
         description: "The technical goals of the project were to be able to emulate some of the functionalities that facebook has implemented, such as allowing the users to have friends in a symmetrical irreflexive way, accept & send friend requests, submit posts and see the posts of their friends and comment on the posts of their friends.",
-        img:  "https://github.com/samgaco/socialnetwork/blob/master/app/assets/images/main.png",
+        img:  "https://raw.githubusercontent.com/samgaco/socialnetwork/master/app/assets/images/main.png",
         url: "https://github.com/samgaco/socialnetwork"
     )
