@@ -35,7 +35,6 @@ class Home extends React.Component {
         <img src={mainIMG} />
         <p class="about-text">
         
-
         Hi! I am <span class="highlight">Samuel.</span> A FullStack Developer from Spain.  
         <a class="about-cv" href="https://drive.google.com/file/d/1V2wLtYORhx8SiiRFr0xVXzZULNfqoxZH/view?usp=sharing" target="_blank"> Check my CV here.</a>
         </p>

@@ -2,27 +2,22 @@ import React from "react"
 import githubIMG from 'images/contact/github.svg'
 import twitterIMG from 'images/contact/twitter.svg'
 import linkedinIMG from 'images/contact/linkedin.svg'
+import { SocialIcon } from 'react-social-icons';
 
 class Contact extends React.Component {
   render () {
     return (
       <div className="contact-icons d-flex flex-row flex-wrap justify-content-center">
       <div>
-        <a class="githubIMG" href="https://github.com/samgaco" target="_blank">
-          <img src={githubIMG} />
-        </a>
+      <SocialIcon network="github" url="https://github.com/samgaco" target="_blank" />
       </div>
 
       <div>
-        <a class="linkedinIMG" href="https://www.linkedin.com/in/samuel-garc%C3%ADa-companys-0a848284/" target="_blank">
-          <img src={linkedinIMG} />
-        </a>
+      <SocialIcon url="https://www.linkedin.com/in/samuel-garcia-companys/" target="_blank" />
       </div>
 
       <div>
-        <a class="twitterIMG" href="https://twitter.com/samuelgcompanys" target="_blank">
-          <img src={twitterIMG} />
-        </a>
+      <SocialIcon network="twitter" url="https://twitter.com/samuelgcompanys" target="_blank" />
       </div>
     </div>
     );
