@@ -5,6 +5,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Navigation from './Navigation/index'
 import Contact from './Navigation/Contact'
+import mainIMG from 'images/main/main-t.png'
 
 class Home extends React.Component {
   constructor(props) {
@@ -26,6 +27,21 @@ class Home extends React.Component {
           <div>
             <Navigation />
           </div>
+
+        </div>
+
+        <div className="main-body">
+        <div className="about-body">
+        <img src={mainIMG} />
+        <p class="about-text">
+        
+
+        Hi! I am <span class="highlight">Samuel.</span> A FullStack Developer from Spain.  
+        <a class="about-cv" href="https://drive.google.com/file/d/1V2wLtYORhx8SiiRFr0xVXzZULNfqoxZH/view?usp=sharing" target="_blank"> Check my CV here.</a>
+        </p>
+        </div>
+
+      
 
         </div>
 

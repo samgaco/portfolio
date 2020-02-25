@@ -23,6 +23,41 @@
   margin-bottom: 1rem;
 }
 
+// About
+
+.about-body{
+  max-width: 30%;
+  margin-left: 5%;
+}
+
+.about-text{
+  position: relative;
+  top: 12px;
+}
+
+.highlight{
+  background: linear-gradient( crimson 95%, whitesmoke);
+  color: whitesmoke;
+}
+
+.about-cv{
+  color: #dc143c;
+  font-weight: bold;
+}
+
+.about-cv:hover{
+  text-decoration: none;
+  color: #ad1332;
+}
+
+.about-body img{
+  max-width: 30%;
+  border-radius: 50%;
+  border: 2px solid #dc143c;
+  float: left;
+  margin-right: 2%;
+}
+
 @media (min-width: 800px) {
   .image-one {
     opacity: 0.9;
@@ -72,3 +107,6 @@
     color:crimson;
   }
 }
+
+
+
