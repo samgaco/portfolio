@@ -8,16 +8,17 @@ class Contact extends React.Component {
   render () {
     return (
       <div className="contact-icons d-flex flex-row flex-wrap justify-content-center">
+        
       <div>
-      <SocialIcon network="github" url="https://github.com/samgaco" target="_blank" />
+      <SocialIcon className="hvr-pulse" network="github" url="https://github.com/samgaco" target="_blank" />
       </div>
 
       <div>
-      <SocialIcon url="https://www.linkedin.com/in/samuel-garcia-companys/" target="_blank" />
+      <SocialIcon className="hvr-pulse" url="https://www.linkedin.com/in/samuel-garcia-companys/" target="_blank" />
       </div>
 
       <div>
-      <SocialIcon network="twitter" url="https://twitter.com/samuelgcompanys" target="_blank" />
+      <SocialIcon className="hvr-pulse" network="twitter" url="https://twitter.com/samuelgcompanys" target="_blank" />
       </div>
     </div>
     );
