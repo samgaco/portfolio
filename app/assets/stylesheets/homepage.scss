@@ -4,8 +4,10 @@
 
 // My name
 .main-title-container {
-  margin: 2.5rem 6rem 3rem 6rem;
+  padding-top: 2.5rem;
+  margin: auto 6rem 3rem 6rem;
   border-bottom: crimson 1.5px solid;
+  height: 8rem;
 }
 
 .main-name {
@@ -17,6 +19,7 @@
 // name div
 .name-one {
   max-width: 100%;
+  margin-top: 1rem;
 }
 
 .main-name-wrapper {
@@ -25,9 +28,15 @@
 
 // About
 
+.main-body{
+  max-height: 10rem;
+  margin-top: 8rem;
+}
+
 .about-body {
   max-width: 30%;
   margin-left: 5%;
+  max-height: 100%;
 }
 
 .about-text {
@@ -115,4 +124,26 @@
     text-decoration: underline;
     color: crimson;
   }
+}
+
+html{
+  height:100%;
+}
+
+body{
+  height: 100%;
+}
+
+body div{
+  height: 100%;
+}
+
+main{
+  height: 100%;
+} 
+
+.main-page-cont{
+  max-height: 100%;
+  background-image: image-url("main/back-plain.jpg");
+  background-size: 1420px;
 }

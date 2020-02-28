@@ -16,34 +16,35 @@ class Home extends React.Component {
 
     return (
       <main>
+        <div className="main-page-cont">
 
-        <div class="main-title-container d-flex flex-row flex-wrap justify-content-center">
-          <h1 className="main-name">Samuel García Companys</h1>
-          <Contact />
-        </div>
+          <div class="main-title-container d-flex flex-row flex-wrap justify-content-center">
+            <h1 className="main-name">Samuel García Companys</h1>
+            <Contact />
 
-        <div className="name-one d-flex flex-row flex-wrap justify-content-center">
+            <div className="name-one d-flex flex-row flex-wrap justify-content-center">
 
-          <div>
-            <Navigation />
+              <div>
+                <Navigation />
+              </div>
+
+            </div>
           </div>
 
-        </div>
 
-        <div className="main-body">
-        <div className="about-body">
-        <img src={mainIMG} />
-        <p class="about-text">
-        
-        Hi! I am <span class="highlight">Samuel.</span> A FullStack Developer from Spain.  
+          <div className="main-body">
+            <div className="about-body">
+              <img src={mainIMG} />
+              <p class="about-text">
+
+                Hi! I am <span class="highlight">Samuel.</span> A FullStack Developer from Spain.
         <a class="about-cv" href="https://drive.google.com/file/d/1V2wLtYORhx8SiiRFr0xVXzZULNfqoxZH/view?usp=sharing" target="_blank"> Check my CV here.</a>
-        </p>
+              </p>
+            </div>
+          </div>
+
+
         </div>
-
-      
-
-        </div>
-
       </main>
     );
   }
