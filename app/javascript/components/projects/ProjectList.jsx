@@ -42,7 +42,7 @@ class ProjectList extends React.Component {
         <div class="main-title-container d-flex flex-row flex-wrap justify-content-center">
           <h1 className="main-name">Samuel García Companys</h1>
         </div>
-        <div className="name-one d-flex flex-row flex-wrap justify-content-center">
+        <div className="name-one-projects d-flex flex-row flex-wrap justify-content-center">
           <div>
             <Navigation />
           </div>
