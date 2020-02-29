@@ -31,6 +31,7 @@ class ProjectList extends React.Component {
         url={project.url}
         img={project.img}
         description={project.description}
+        livelink={project.livelink}
       />
     ));
   }
