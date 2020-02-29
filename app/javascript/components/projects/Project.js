@@ -14,6 +14,7 @@ class Project extends React.Component {
           <img class="img-project" src={this.props.img} />
           </a>
           </div>
+          <p className=""><a href={this.props.livelink} target="_blank"> Live Demo </a> | <a href={this.props.url} target="_blank"> Github Repository </a></p>
           <p className="">{this.props.description}</p>
         </div>
       </div>
