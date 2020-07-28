@@ -3,14 +3,9 @@ import PropTypes from "prop-types"
 class Project extends React.Component {
   render () {
     return (
-<<<<<<< HEAD
-      <div className="projectAlone col-lg-10 col-sm-12">
-        <div className="projectAlone-within d-flex justify-content-center">
-=======
       <div className="projectAlone col-lg-12 col-sm-12">
         <div className="projectAlone-within d-flex flex-row flex-wrap justify-content-center">
         <a href={this.props.livelink} target="_blank">
->>>>>>> old-state
         <h3 className="title-project"> {this.props.name}</h3>
         </a>
         <div className="image-description-container">

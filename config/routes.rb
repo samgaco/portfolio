@@ -3,4 +3,7 @@ Rails.application.routes.draw do
   root 'homepage#index'
   get 'projects/index'
   resources :projects, only: [:index]
+
+  get 'Home', to: 'homepage#index'
+  get 'Projects', to: 'homepage#index'
 end

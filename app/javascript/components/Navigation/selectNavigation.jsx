@@ -14,7 +14,7 @@ class Selectnavigation extends React.Component {
   render() {
 
     return(
-      <Fade in={true} timeout={4000}>
+      <Fade in={true} timeout={1000}>
         <Link to={`${this.props.name}`}>
           <div className="btn  font-weight-bold navbuttons">
             <h2>
