@@ -33,7 +33,9 @@ class Home extends React.Component {
 
 
           <div className="main-body">
-            <div className="about-body">
+
+
+            <div className="about-body col-sm-12 col-md-3">
               <img src={mainIMG} />
               <p class="about-text">
 

@@ -6,4 +6,6 @@ Rails.application.routes.draw do
 
   get 'Home', to: 'homepage#index'
   get 'Projects', to: 'homepage#index'
+  get 'Blog', to: 'homepage#index'
+
 end

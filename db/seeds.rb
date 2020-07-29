@@ -28,19 +28,6 @@
 #     )
 
 Project.create(
-<<<<<<< HEAD
-    name: "Video stream library",
-    description: "The User can puchase either a Movie or a Season and it will have it in its library for two days. The user will be able to see the remaining hours of his purchases in the library. Once an item is expired and not in his library anymore, the user will be able to purchase the same item again, but the user is not going to be able to purchase the same item twice within a two day span.",
-    img: "https://raw.githubusercontent.com/samgaco/vidstream/master/docs/images/main.png",
-    url: "https://github.com/samgaco/vidstream"
-)
-
-Project.create(
-    name: "BookStore",
-    description: "The purpose of this project is to have a first contact with using redux in a react project.",
-    img: "https://raw.githubusercontent.com/wathigo/Bookstore/master/docs/images/main.png",
-    url: "https://github.com/wathigo/Bookstore/tree/master"
-=======
         name: "GoTalk!",
         description: "GoTalk! is an application thought as an online language tutoring scheduler. Teachers will be able to sign in an offer their rates while the users can sign into the site and book their favorite teachers.",
         img: "https://raw.githubusercontent.com/samgaco/gotalk/development/docs/images/gotalk2.png",
@@ -75,5 +62,4 @@ Project.create(
     img: "https://raw.githubusercontent.com/wathigo/Bookstore/master/docs/images/main.png",
     url: "https://github.com/wathigo/Bookstore/tree/master",
     livelink: "https://github.com/wathigo/Bookstore"
->>>>>>> old-state
 )

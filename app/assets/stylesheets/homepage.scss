@@ -2,20 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-// My name
-.main-title-container {
-  padding-top: 2.5rem;
-  margin: auto 6rem 3rem 6rem;
-  border-bottom: crimson 1.5px solid;
-  height: 8rem;
-}
-
-.main-name {
-  font-family: "Julius Sans One", sans-serif;
-  font-size: 4rem;
-  position: relative;
-}
-
 // name div
 .name-one {
   max-width: 100%;
@@ -77,6 +63,22 @@
 }
 
 @media (min-width: 800px) {
+  // My name
+.main-title-container {
+  padding-top: 2.5rem;
+  margin: auto 6rem 3rem 6rem;
+  border-bottom: crimson 1.5px solid;
+  height: 8rem;
+}
+
+.main-name {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 4rem;
+  position: relative;
+}
+
+
+
   .image-one {
     opacity: 0.9;
   }
@@ -102,6 +104,26 @@
 }
 
 @media (max-width: 800px) {
+
+    // My name
+.main-title-container {
+  padding-top: 2.5rem;
+  margin: auto 6rem 3rem 6rem;
+  border-bottom: crimson 1.5px solid;
+  height: 4rem;
+}
+
+.main-name {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 1rem;
+  position: relative;
+}
+
+
+  body{
+
+    font-size: 5rem;
+  }
   .image-one {
     opacity: 0;
   }
