@@ -7,17 +7,17 @@ import { SocialIcon } from 'react-social-icons';
 class Contact extends React.Component {
   render () {
     return (
-      <div className="contact-icons d-flex flex-row flex-wrap justify-content-center">
+      <div className="contact-icons row justify-content-center">
 
-      <div className="contactIcon-div">
+      <div className="contactIcon-div col-4">
       <SocialIcon className="hvr-grow-rotate" network="github" url="https://github.com/samgaco" target="_blank" />
       </div>
 
-      <div className="contactIcon-div">
+      <div className="contactIcon-div col-4">
       <SocialIcon className="hvr-grow-rotate" url="https://www.linkedin.com/in/samuel-garcia-companys/" target="_blank" />
       </div>
 
-      <div className="contactIcon-div">
+      <div className="contactIcon-div col-4">
       <SocialIcon className="hvr-grow-rotate" network="twitter" url="https://twitter.com/samuelgcompanys" target="_blank" />
       </div>
     </div>

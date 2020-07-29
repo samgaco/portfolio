@@ -44,12 +44,7 @@
 /* Nav section */
 /* Home - Contact section */
 
-.contact-icons img {
-  width: 2.2rem;
-  margin-left: 2rem;
-  margin-top: 1rem;
-  position: relative;
-}
+
 
 .githubIMG:hover{
   color: crimson;
@@ -87,3 +82,11 @@
 ::-webkit-scrollbar-thumb:hover {
   background: crimson; 
 }
+
+  .contact-icons img {
+    width: 2.2rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    position: relative;
+  }
+
