@@ -103,50 +103,6 @@
   }
 }
 
-@media (max-width: 800px) {
-
-    // My name
-.main-title-container {
-  padding-top: 2.5rem;
-  margin: auto 6rem 3rem 6rem;
-  border-bottom: crimson 1.5px solid;
-  height: 4rem;
-}
-
-.main-name {
-  font-family: "Julius Sans One", sans-serif;
-  font-size: 1rem;
-  position: relative;
-}
-
-
-  body{
-
-    font-size: 5rem;
-  }
-  .image-one {
-    opacity: 0;
-  }
-
-  .nav-buttons {
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-  }
-
-  .navbuttons {
-    font-family: "Julius Sans One", sans-serif;
-  }
-
-  .navbuttons h2 {
-    font-size: 0.9rem;
-    color: rgb(151, 150, 150);
-  }
-
-  .navbuttons h2:hover {
-    text-decoration: underline;
-    color: crimson;
-  }
-}
 
 html{
   height:100%;
@@ -169,4 +125,50 @@ main{
   background-image: image-url("main/back-plain.jpg");
   background-size: 1420px;
   background-size: cover;
+}
+
+
+@media (max-width: 800px) {
+
+  // My name
+.main-title-container {
+padding-top: 2.5rem;
+margin: auto 6rem 3rem 6rem;
+border-bottom: crimson 1.5px solid;
+height: 4rem;
+}
+
+.main-name {
+font-family: "Julius Sans One", sans-serif;
+font-size: 1rem;
+position: relative;
+}
+
+
+body{
+
+  font-size: 5rem;
+}
+.image-one {
+  opacity: 0;
+}
+
+.nav-buttons {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.navbuttons {
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.navbuttons h2 {
+  font-size: 0.9rem;
+  color: rgb(151, 150, 150);
+}
+
+.navbuttons h2:hover {
+  text-decoration: underline;
+  color: crimson;
+}
 }
