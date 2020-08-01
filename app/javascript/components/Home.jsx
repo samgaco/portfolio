@@ -18,31 +18,33 @@ class Home extends React.Component {
       <main>
         <div className="main-page-cont">
 
-          <div class="main-title-container d-flex flex-row flex-wrap justify-content-center">
-            <h1 className="main-name">Samuel García Companys</h1>
+          <div class="main-title-container d-flex flex-row flex-wrap justify-content-center container">
+            <h1 className="main-name">Samuel García Companys </h1>
             <Contact />
 
-            <div className="name-one d-flex flex-row flex-wrap justify-content-center">
+            <div className="col-12 name-one d-flex flex-row flex-wrap justify-content-center">
 
-              <div>
                 <Navigation />
-              </div>
 
             </div>
           </div>
 
+          <div className="main-body container-fluid">
 
-          <div className="main-body">
 
-
-            <div className="about-body col-sm-12 col-md-3">
+          <div className="row">
+            <div className="aboutBody col-sm-12 col-md-4 d-flex flex-row flex-wrap">
+              <div className="aboutBody_imageBox">
               <img src={mainIMG} />
-              <p class="about-text">
-
-                Hi! I am <span class="highlight">Samuel.</span> A FullStack Developer from Spain.
-        <a class="about-cv" href="https://drive.google.com/file/d/1V2wLtYORhx8SiiRFr0xVXzZULNfqoxZH/view?usp=sharing" target="_blank"> Check my CV here.</a>
-              </p>
+              </div>
+                <p className="aboutBody_text">
+                  Hi! I am <span class="highlight">Samuel.</span> A FullStack Developer from Spain.
+                  <a class="about-cv" href="https://drive.google.com/file/d/1V2wLtYORhx8SiiRFr0xVXzZULNfqoxZH/view?usp=sharing" target="_blank"> Check my CV here.</a>
+                </p>
             </div>
+            </div>
+
+
           </div>
 
 
